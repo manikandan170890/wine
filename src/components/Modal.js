@@ -5,7 +5,6 @@ export default class Modal extends Component {
 
    
     toggleModal(){
-        console.log('asd');
        this.props.toggleModal();
     }  
 

@@ -117,8 +117,7 @@ export default class Home extends React.Component {
     submitForm(e){
         e.preventDefault();             
         if(this.validation()) {
-            this.setState({error:null});
-            console.log('form submitted');
+            this.setState({error:null});           
             this.setState({show:true});
         }
     }
